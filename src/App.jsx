@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/header';
+import Map from './components/map';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1 className='text-7xl font-rubik'>Antoine bg</h1>
-      </header>
+    <div className="App flex flex-col">
+      <Header></Header>
+      <Map></Map>
     </div>
   );
 }
