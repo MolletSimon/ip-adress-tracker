@@ -1,19 +1,21 @@
 import { useRef } from "react";
-import { useMap } from "react-leaflet";
 
-function AddressInput({setInfos}) {
+function AddressInput({setInfos, setIsLoading}) {
     const input = useRef(null);
     const apiKey = "at_06VrI1Zcb04CD1MmLM5Bz7YzlPUYn";
     const onClick = () => {
+        setIsLoading(true)
         fetch(`https://geo.ipify.org/api/v2/country,city?apiKey=${apiKey}&ipAddress=${input.current.value}`)
         .then(res => res.json())
         .then(
             (result) => {
                 if (result.code) {
                     //error
+                    setIsLoading(false)
                     alert(result.messages)
                 } else {
                     setInfos(result);
+                    setIsLoading(false)
                 }
             },
             (error) => {console.log(error)}
