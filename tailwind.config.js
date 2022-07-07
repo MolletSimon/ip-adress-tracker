@@ -4,7 +4,15 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        veryDarkGray: '#2B2B2B',
+        darkGray: '969696'
+      }
+    },
+    fontFamily: {
+      'rubik': 'Rubik',
+    }
   },
   plugins: [],
 }
