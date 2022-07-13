@@ -21,10 +21,11 @@ Users should be able to:
 
 - View the optimal layout for each page depending on their device's screen size
 - See hover states for all interactive elements on the page
-- See their own IP address on the map on the initial page load
 - Search for any IP addresses or domains and see the key information and location
 
 ### Screenshot
+<img width="1671" alt="Screenshot at Jul 13 19-22-47" src="https://user-images.githubusercontent.com/43732526/178793866-8cc20790-774a-4957-a194-7e38fd85b95e.png">
+<img width="1669" alt="Screenshot at Jul 13 19-23-47" src="https://user-images.githubusercontent.com/43732526/178793900-d23549b6-2c7d-462d-8aae-ef4fe04610c4.png">
 
 
 ### Links
@@ -43,7 +44,7 @@ Users should be able to:
 ## Author
 
 - Website - [Simon Mollet](https://simonmollet.fr)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/MolletSimon)
-- Linkedin - [@yourusername](https://www.linkedin.com/in/simon-mollet/)
+- Frontend Mentor - [@MolletSimon](https://www.frontendmentor.io/profile/MolletSimon)
+- Linkedin - [@Simon Mollet](https://www.linkedin.com/in/simon-mollet/)
 
 
